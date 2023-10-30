@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 mongoose.connect('mongodb://localhost:27017/newdb').then(() => {
-    console.log('MongoDB connected')
+    console.log('MongoDB connected successfully')
 }).catch(() => {
     console.log('Failed to connect to MongoDB')
 })
